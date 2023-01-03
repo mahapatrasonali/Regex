@@ -9,11 +9,23 @@ namespace RegexUserRegistration
 {
     public class UserName
     {
-        public static string REGEX_USERNAME = "^[A-Z]{1}[a-z]{2,}$";
-
-        public bool validateUserName(string userName)
+        public static void FirstName()      //UC1
         {
-            return Regex.IsMatch(userName, REGEX_USERNAME);
+            Console.WriteLine("Enter your FirstName");
+            string userInput = Console.ReadLine();
+            string regexCondition = "^[A-Z]{1}[a-z]{2,}$";
+            Iteration(userInput, regexCondition);
+        }
+        public static void Iteration(string userInput, string regexCondition)
+        {
+            if (Regex.IsMatch(userInput, regexCondition))
+            {
+                Console.WriteLine("Validated successfully!\n");
+            }
+            else
+            {
+                Console.WriteLine("Entered Details are not in required format.Please try again!\n");
+            }
         }
     }
 }
