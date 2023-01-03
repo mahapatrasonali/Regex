@@ -24,7 +24,13 @@ namespace RegexUserRegistration
             string regexCondition = "^[A-Z]{1}[a-z]{2,}$";
             Iteration(userInput, regexCondition);
         }
-
+        public static void EmailValidating()      //UC3
+        {
+            Console.WriteLine("Enter your EmailId");
+            string userInput = Console.ReadLine();
+            string regexCondition = "^[a-z]{1}[a-z]{2}(.)[a-z]{3}(@bl.co)$";
+            Iteration(userInput, regexCondition);
+        }
         public static void Iteration(string userInput, string regexCondition)
         {
             if (Regex.IsMatch(userInput, regexCondition))
