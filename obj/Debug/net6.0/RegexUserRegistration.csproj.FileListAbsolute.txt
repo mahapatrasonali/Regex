@@ -1,0 +1,15 @@
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\bin\Debug\net6.0\RegexUserRegistration.exe
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\bin\Debug\net6.0\RegexUserRegistration.deps.json
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\bin\Debug\net6.0\RegexUserRegistration.runtimeconfig.json
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\bin\Debug\net6.0\RegexUserRegistration.dll
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\bin\Debug\net6.0\RegexUserRegistration.pdb
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\obj\Debug\net6.0\RegexUserRegistration.csproj.AssemblyReference.cache
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\obj\Debug\net6.0\RegexUserRegistration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\obj\Debug\net6.0\RegexUserRegistration.AssemblyInfoInputs.cache
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\obj\Debug\net6.0\RegexUserRegistration.AssemblyInfo.cs
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\obj\Debug\net6.0\RegexUserRegistration.csproj.CoreCompileInputs.cache
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\obj\Debug\net6.0\RegexUserRegistration.dll
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\obj\Debug\net6.0\refint\RegexUserRegistration.dll
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\obj\Debug\net6.0\RegexUserRegistration.pdb
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\obj\Debug\net6.0\RegexUserRegistration.genruntimeconfig.cache
+C:\Users\SONALI MAHAPATRA\237\RegexUserRegistration\RegexUserRegistration\obj\Debug\net6.0\ref\RegexUserRegistration.dll

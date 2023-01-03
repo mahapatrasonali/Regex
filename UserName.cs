@@ -9,7 +9,7 @@ namespace RegexUserRegistration
 {
     public class UserName
     {
-        public static string REGEX_USERNAME = "^[A-Z]{1}[a-z]{2}$";
+        public static string REGEX_USERNAME = "^[A-Z]{1}[a-z]{2,}$";
 
         public bool validateUserName(string userName)
         {
