@@ -45,6 +45,13 @@ namespace RegexUserRegistration
             string regexCondition = "^[a-zA-Z0-9]{8,}$"; 
             Iteration(userInput, regexCondition);
         }
+        public static void Passmax1upperchar()      //UC6
+        {
+            Console.WriteLine("Enter your Password");
+            string userInput = Console.ReadLine();
+            string regexCondition = "^[A-Z]{1}[a-z0-9]{7}$";
+            Iteration(userInput, regexCondition);
+        }
         public static void Iteration(string userInput, string regexCondition)
         {
             if (Regex.IsMatch(userInput, regexCondition))
