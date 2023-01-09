@@ -35,7 +35,14 @@ namespace RegexUserRegistration
         {
             Console.WriteLine("Enter your PhoneNumber");
             string userInput = Console.ReadLine();
-            string regexCondition = "^(+)[0-9]{2}[ ][0-9]{10}$";
+            string regexCondition = "^[0-9]{2}[ ][0-9]{10}$";
+            Iteration(userInput, regexCondition);
+        }
+        public static void Passmin8char()      //UC5
+        {
+            Console.WriteLine("Enter your Password");
+            string userInput = Console.ReadLine();
+            string regexCondition = "^[a-zA-Z0-9]{8,}$"; 
             Iteration(userInput, regexCondition);
         }
         public static void Iteration(string userInput, string regexCondition)
