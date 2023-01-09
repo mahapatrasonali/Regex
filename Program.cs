@@ -11,7 +11,9 @@
               "3]: For Email validation\n" +
              "4]: For PhoneNumber validation\n"+
              "5]: For Password validation\n"+
-             "6]: For Password  validation\n");
+             "6]: For Password  validation atleast 1 uppercase\n"+
+             "7]: For Password  validation min 1 number\n"+
+            "8]: For Password  validation min 1 special character\n");
             int Option = Convert.ToInt32(Console.ReadLine());
             switch (Option)
             {
@@ -32,6 +34,12 @@
                     break;
                 case 6:
                     UserName.Passmax1upperchar();
+                    break;
+                case 7:
+                    UserName.Passmin1num();
+                    break;
+                case 8:
+                    UserName.Passmin1specialchar();
                     break;
                 default:
                     Console.WriteLine("Choose the valid option");
